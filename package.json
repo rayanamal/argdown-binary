@@ -1,0 +1,14 @@
+{
+  "name": "my-new-script",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@argdown/core": "^1.7.5"
+  }
+}
