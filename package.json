@@ -1,13 +1,13 @@
 {
-  "name": "my-new-script",
-  "version": "1.0.0",
-  "main": "main.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "argdown-binary",
+  "module": "main.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
   "dependencies": {
     "@argdown/core": "^1.7.5"
   }

@@ -1,7 +1,3 @@
-// To compile:
-// 1. npm install
-// 2. bun build main.ts --compile --outfile argdown
-
 import {
 	ArgdownApplication,
 	ArgumentSelectionPlugin,
